@@ -8,6 +8,7 @@ import javax.ws.rs.ApplicationPath;
 @Component
 @ApplicationPath("/")
 public class JerseyConfig extends ResourceConfig {
+    
     public JerseyConfig(){
         this.packages("rest.jersey.demo.controllers");
     }
